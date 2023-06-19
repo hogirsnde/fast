@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نڤێسین</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class=" text-center p-2 mb-5">
+        <h2 class="my-4">نڤێسین  ب شێوازەکێ بلەز</h2>
+    </header>
+    
+    <div class="container text-center">
+        <!-- Word & Input-->
+        <div class="row">
+            <div class="col-md-6 mx-auto" >
+                <p class="lead" style="direction: rtl">
+                    نڤیسینا دیارکڕی ل ماوەیێ
+                    <span class="text-light" id="success">5</span>
+                    چرکاندا بنڤیسە :                </p>
+
+                <h2 class="display-2 mb-5" id="current-word">Hello</h2>
+                <input type="text" class="form-control form-control-lg text-center"  placeholder="دەست پێ بکە ب نڤێسینێ" id="word-input" autofocus>
+                <button class="mt-5 mb-2 btn text-white w-50 "  id="btn">دەست پێ بکە</button>
+
+                <!-- Time & Score Columns-->
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <h3 style="direction: rtl"> دەمێ مایی:
+                            <span id="time">0</span>
+                        </h3>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3 style="direction: rtl">ئەنجام:
+                            <span id="score">0</span>
+                        </h3>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="again">
+            <h2 class="showed">دووباره هه ول بده</h2>
+            <h2 class="showedd ">نه خێر</h2>
+
+    </div>
+
+    <footer dir="rtl">
+        <h3>هاتییە دروستکرن ژلایێ : <span>هوگر عمر</span></h3>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
